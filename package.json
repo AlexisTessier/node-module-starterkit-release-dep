@@ -27,7 +27,7 @@
     "build": "npm run entries && npm run documentation",
     "dev": "concurrently \"ttab npm run update-coverage\" \"ttab npm run watch-test\" \"ttab npm run watch\" \"ttab npm run dev-server\"",
     "release": "node deployment/release",
-    "release-first": "node deployment/release -- first"
+    "release-first": "npm run release -- -- first"
   },
   "repository": {
     "type": "git",
