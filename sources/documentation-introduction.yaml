@@ -1,6 +1,6 @@
 - section: How to ?
 - title: Install
 - cli: >
-    npm i @alexistessier/node-module-starterkit-release-script
+    npm i @alexistessier/node-module-starterkit-release-dep
 - title: <a href="https://github.com/AlexisTessier/node-module-starterkit">Use node-module-starterkit<a/>
 - section: Documentation
