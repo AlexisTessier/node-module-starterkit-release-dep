@@ -86,7 +86,7 @@ function confirmRelease(releaseType, releaseDescription) {
 		shell.echo('Error: Release Tests failed on master');
 		shell.exit(1);
 	}
-	else if(shell.exec(`git add . && git commit -a -m "Auto-commit : pre-release ${pkg.version} - ${releaseDescription}"`).code !== 0) {
+	else if(shell.exec(`git add . && git commit --allow-empty -a -m "Auto-commit : pre-release ${pkg.version} - ${releaseDescription}"`).code !== 0) {
 		shell.echo('Error: Release failed at pre-release commit');
 		shell.exit(1);
 	}
@@ -122,7 +122,7 @@ function confirmRelease(releaseType, releaseDescription) {
 
 		shell.exit(1);
 	}
-	else if(shell.exec(`git add . && git commit -a -m "Auto-commit : release ${pkg.version} - ${releaseDescription}"`).code !== 0) {
+	else if(shell.exec(`git add . && git commit --allow-empty -a -m "Auto-commit : release ${pkg.version} - ${releaseDescription}"`).code !== 0) {
 		shell.echo('Error: Release failed at release commit');
 
 		shell.exec(`git checkout master`);
