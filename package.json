@@ -1,6 +1,6 @@
 {
   "name": "@alexistessier/node-module-starterkit-release-dep",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The release script for node-module-starterkit",
   "main": "index.js",
   "directories": {
