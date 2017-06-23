@@ -67,19 +67,17 @@
   },
   "licenseDate": "2017-present",
   "devDependencies": {
-    "@alexistessier/es-lint-config": "^1.0.4",
+    "@alexistessier/es-lint-config": "^1.1.0",
     "ava": "^0.18.2",
     "capitalize": "^1.0.0",
-    "concurrently": "^3.4.0",
+    "concurrently": "^3.5.0",
     "coveralls": "^2.12.0",
     "dashify": "^0.2.2",
-    "dependency-check": "^2.8.0",
+    "dependency-check": "^2.9.1",
     "documentation": "^4.0.0-rc.1",
     "eslint": "^3.18.0",
-    "git-repo-info": "^1.4.1",
-    "github-markdown-css": "^2.6.0",
+    "github-markdown-css": "^2.8.0",
     "glob": "^7.1.1",
-    "inquirer": "^3.0.6",
     "jsonfile": "^3.0.0",
     "marked": "^0.3.6",
     "mkdirp": "^0.5.1",
@@ -88,8 +86,7 @@
     "nyc": "^10.2.0",
     "oss-license-name-to-url": "^1.2.1",
     "read-yaml": "^1.1.0",
-    "serve-here": "^3.2.0",
-    "shelljs": "^0.7.7"
+    "serve-here": "^3.2.0"
   },
   "ava": {
     "source": [
@@ -104,7 +101,10 @@
     ]
   },
   "dependencies": {
-    "better-assert": "^1.0.2"
+    "better-assert": "^1.0.2",
+    "inquirer": "^3.1.1",
+    "shelljs": "^0.7.8",
+    "git-repo-info": "^1.4.1"
   },
   "optionalDependencies": {
     "ttab": "^0.5.1"
