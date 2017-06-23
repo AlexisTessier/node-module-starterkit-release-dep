@@ -10,13 +10,13 @@
 
 ![Branch : {{{currentBranch}}}](https://img.shields.io/badge/Branch-{{{currentBranch}}}-blue.svg)
 [![version](https://img.shields.io/badge/version-{{{version}}}-blue.svg)]({{{homepage}}})
-[![npm version](https://badge.fury.io/js/{{{name}}}.svg)](https://badge.fury.io/js/{{{name}}})
+[![npm version](https://badge.fury.io/js/{{{name}}}.svg)](https://badge.fury.io/js/{{{furyName}}})
 
-[![Build Status](https://travis-ci.org/{{{author.login.github}}}/{{{name}}}.svg?branch={{{currentBranch}}})](https://travis-ci.org/{{{author.login.github}}}/{{{name}}})
-[![Coverage Status](https://coveralls.io/repos/{{{author.login.github}}}/{{{name}}}/badge.svg?branch={{{currentBranch}}}&service=github)](https://coveralls.io/github/{{{author.login.github}}}/{{{name}}}?branch={{{currentBranch}}})
+[![Build Status](https://travis-ci.org/{{{author.login.github}}}/{{{unscopedName}}}.svg?branch={{{currentBranch}}})](https://travis-ci.org/{{{author.login.github}}}/{{{unscopedName}}})
+[![Coverage Status](https://coveralls.io/repos/{{{author.login.github}}}/{{{unscopedName}}}/badge.svg?branch={{{currentBranch}}}&service=github)](https://coveralls.io/github/{{{author.login.github}}}/{{{unscopedName}}}?branch={{{currentBranch}}})
 
-[![Dependency Status](https://david-dm.org/{{{author.login.github}}}/{{{name}}}.svg)](https://david-dm.org/{{{author.login.github}}}/{{{name}}})
-[![devDependency Status](https://david-dm.org/{{{author.login.github}}}/{{{name}}}/dev-status.svg)](https://david-dm.org/{{{author.login.github}}}/{{{name}}}#info=devDependencies)
+[![Dependency Status](https://david-dm.org/{{{author.login.github}}}/{{{unscopedName}}}.svg)](https://david-dm.org/{{{author.login.github}}}/{{{unscopedName}}})
+[![devDependency Status](https://david-dm.org/{{{author.login.github}}}/{{{unscopedName}}}/dev-status.svg)](https://david-dm.org/{{{author.login.github}}}/{{{unscopedName}}}#info=devDependencies)
 
 {{description}}
 

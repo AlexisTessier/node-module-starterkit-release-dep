@@ -6,6 +6,7 @@
   "directories": {
     "test": "tests"
   },
+  "stability": "unstable",
   "scripts": {
     "lint": "eslint --ext js ./sources",
     "watch": "npm-watch",
