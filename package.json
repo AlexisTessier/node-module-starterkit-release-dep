@@ -25,7 +25,8 @@
     "report": "nyc report --reporter=html --reporter=lcov",
     "build": "npm run entries && npm run documentation",
     "dev": "concurrently \"ttab npm run update-coverage\" \"ttab npm run watch-test\" \"ttab npm run watch\" \"ttab npm run dev-server\"",
-    "release": "node deployment/release"
+    "release": "node deployment/release",
+    "release-first": "node deployment/release -- first"
   },
   "repository": {
     "type": "git",

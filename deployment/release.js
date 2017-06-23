@@ -5,6 +5,8 @@ const prompter = require('inquirer');
 const shell = require('shelljs');
 const git = require('git-repo-info');
 
+const firstRelease = process.argv.includes('first');
+
 assert(git().branch === 'master');
 
 function startRelease() {
@@ -53,7 +55,14 @@ function confirmRelease(releaseType, releaseDescription) {
 	shell.exec(`git checkout release`);
 	assert(git().branch === 'release');
 
-	if(shell.exec(`git pull origin release`).code !== 0) {
+	if (firstRelease) {
+		if(shell.exec(`git push -u origin master`).code !== 0) {
+			shell.echo('Error: Release failed at first release push on master');
+			shell.exit(1);
+		}
+	}
+
+	if(!firstRelease && shell.exec(`git pull origin release`).code !== 0) {
 		shell.echo('Error: Release failed at update release branch');
 		shell.exit(1);
 	}
