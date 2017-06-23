@@ -1,5 +1,5 @@
 {
-  "name": "node-module-starterkit-release-dep",
+  "name": "@alexistessier/node-module-starterkit-release-dep",
   "version": "1.0.0",
   "description": "The release script for node-module-starterkit",
   "main": "index.js",

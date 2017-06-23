@@ -1,11 +1,6 @@
-- section: Section Name
-- title: Title
-- subtitle: Subtitle
-- p: >
-    paragraph content
-- js: >
-    // javascript code
+- section: How to ?
+- title: Install
 - cli: >
-    // cli code
-- li: list element
+    npm i @alexistessier/node-module-starterkit-release-script
+- title: <a href="https://github.com/AlexisTessier/node-module-starterkit">Use node-module-starterkit<a/>
 - section: Documentation
