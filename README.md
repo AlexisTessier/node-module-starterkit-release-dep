@@ -22,7 +22,7 @@ The release script for node-module-starterkit
 
 ### Install
 
-    npm i @alexistessier/node-module-starterkit-release-script
+    npm i @alexistessier/node-module-starterkit-release-dep
 
 ### <a href="https://github.com/AlexisTessier/node-module-starterkit">Use node-module-starterkit<a/>
 
