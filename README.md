@@ -2,12 +2,12 @@
 
 ![draft](https://img.shields.io/badge/stability-draft-lightgrey.svg?style=flat-square)
 
-![Branch : master](https://img.shields.io/badge/Branch-master-blue.svg)
+![Branch : release](https://img.shields.io/badge/Branch-release-blue.svg)
 [![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/AlexisTessier/node-module-starterkit-release-dep#readme)
 [![npm version](https://badge.fury.io/js/@alexistessier/node-module-starterkit-release-dep.svg)](https://badge.fury.io/js/@alexistessier/node-module-starterkit-release-dep)
 
-[![Build Status](https://travis-ci.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep.svg?branch=master)](https://travis-ci.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep)
-[![Coverage Status](https://coveralls.io/repos/AlexisTessier/@alexistessier/node-module-starterkit-release-dep/badge.svg?branch=master&service=github)](https://coveralls.io/github/AlexisTessier/@alexistessier/node-module-starterkit-release-dep?branch=master)
+[![Build Status](https://travis-ci.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep.svg?branch=release)](https://travis-ci.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep)
+[![Coverage Status](https://coveralls.io/repos/AlexisTessier/@alexistessier/node-module-starterkit-release-dep/badge.svg?branch=release&service=github)](https://coveralls.io/github/AlexisTessier/@alexistessier/node-module-starterkit-release-dep?branch=release)
 
 [![Dependency Status](https://david-dm.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep.svg)](https://david-dm.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep)
 [![devDependency Status](https://david-dm.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep/dev-status.svg)](https://david-dm.org/AlexisTessier/@alexistessier/node-module-starterkit-release-dep#info=devDependencies)
