@@ -1,5 +1,7 @@
 'use strict';
 
+const path = require('path');
+
 const assert = require('better-assert');
 const prompter = require('inquirer');
 const shell = require('shelljs');
@@ -50,7 +52,7 @@ function confirmRelease(releaseType, releaseDescription) {
 		shell.exit(1);
 	}
 
-	let pkg = require('../package.json');
+	let pkg = require(path.join(process.cwd(), 'package.json'));
 
 	shell.exec(`git checkout release`);
 	assert(git().branch === 'release');
