@@ -11,7 +11,7 @@ var fs = require('fs'),
   LinkerStack = require('documentation').util.LinkerStack,
   hljs = require('highlight.js');
 
-var markdownToHtml = require('./markdown-to-html');
+var markdownToHtml = require('../markdown-to-html');
 
 module.exports = function(
   comments /*: Array<Comment> */,
