@@ -3,7 +3,7 @@
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
 ![Branch : master](https://img.shields.io/badge/Branch-master-blue.svg)
-[![version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/AlexisTessier/node-module-starterkit-release-dep#readme)
+[![version](https://img.shields.io/badge/version-1.4.0-blue.svg)](https://github.com/AlexisTessier/node-module-starterkit-release-dep#readme)
 [![npm version](https://badge.fury.io/js/@alexistessier/node-module-starterkit-release-dep.svg)](https://badge.fury.io/js/@alexistessier%2Fnode-module-starterkit-release-dep)
 
 [![Build Status](https://travis-ci.org/AlexisTessier/node-module-starterkit-release-dep.svg?branch=master)](https://travis-ci.org/AlexisTessier/node-module-starterkit-release-dep)
