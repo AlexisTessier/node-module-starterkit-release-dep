@@ -86,8 +86,7 @@
     "nyc": "11.4.1",
     "oss-license-name-to-url": "1.2.1",
     "read-yaml": "1.1.0",
-    "remarkable": "1.7.1",
-    "serve-here": "3.2.0"
+    "remarkable": "1.7.1"
   },
   "ava": {
     "source": [
@@ -105,6 +104,7 @@
     ]
   },
   "dependencies": {
+    "@vivaxy/here": "3.2.2",
     "better-assert": "1.0.2",
     "git-repo-info": "1.4.1",
     "inquirer": "5.0.1",
