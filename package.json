@@ -77,7 +77,7 @@
     "dashify": "1.0.0",
     "dependency-check": "3.0.0",
     "documentation": "5.3.5",
-    "eslint": "4.16.0",
+    "eslint": "4.17.0",
     "github-markdown-css": "2.10.0",
     "glob": "7.1.2",
     "jsonfile": "4.0.0",
@@ -107,7 +107,7 @@
   "dependencies": {
     "better-assert": "1.0.2",
     "git-repo-info": "1.4.1",
-    "inquirer": "5.0.1",
+    "inquirer": "5.1.0",
     "shelljs": "0.8.1"
   },
   "optionalDependencies": {
